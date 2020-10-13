@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: require("./site-meta-data.json"),
   plugins: [
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,6 +21,12 @@ module.exports = {
               aliases: {},
               showLineNumbers: false,
               noInlineHighlight: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
             },
           },
           {

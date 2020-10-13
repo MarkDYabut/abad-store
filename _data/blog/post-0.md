@@ -3,7 +3,7 @@ template: BlogPost
 path: /post-0
 date: 2020-08-21
 title: "Post modern: Why Millennials Have Fallen In Love With Stamp Collecting"
-thumbnail: /assets/image-6.jpg
+thumbnail: /assets/image-3.jpg
 metaDescription: post-modern
 ---
 
